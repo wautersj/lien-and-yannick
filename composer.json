@@ -14,7 +14,8 @@
         "laravel/framework": "^10.8",
         "laravel/sanctum": "^3.2",
         "laravel/tinker": "^2.8",
-        "statamic/cms": "^4.0"
+        "statamic/cms": "^4.0",
+        "statamic/ssg": "^2.2"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.8.1",
@@ -73,6 +74,12 @@
         ],
         "post-update-cmd": [
             "@php artisan vendor:publish --tag=laravel-assets --ansi --force"
+        ],
+        "build": [
+            "npm run build",
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\"",
+            "@php artisan key:generate",
+            "@php please ssg:generate"
         ]
     }
 }
