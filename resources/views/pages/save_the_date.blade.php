@@ -7,8 +7,11 @@
 
         <p>{{$asset}}</p>
 
+
+        <p>Direct:</p>
         <img src="{{$asset}}" alt="" class="w-100"/>
 
+        <p>Glide:</p>
         <img src="{{ Statamic::tag('glide')->params(['src' => $asset, 'width' => 1200, 'format' => 'webp'])->fetch() }}" alt="Thumb">
     </div>
 @endsection
