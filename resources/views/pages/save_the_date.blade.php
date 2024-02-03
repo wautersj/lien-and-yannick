@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="container m-auto">
-        <div class="block mt-4 last">
+        <div class="block my-4 last">
             <div class="card shadow-lg card-save-the-date">
                 <div class="card-body">
                     <div class="py-5 p-lg-0">
