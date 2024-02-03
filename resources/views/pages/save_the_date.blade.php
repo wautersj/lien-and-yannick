@@ -8,7 +8,7 @@
                     <div class="py-5 p-lg-0">
                         <h1 class="font-great-vibes display-1 m-0">Save the date</h1>
                         <hr class="mt-0"/>
-                        <p class="fw-normal text-muted m-0">21 09 2024</p>
+                        <p class="fw-normal text-muted m-0">21 / 09 / 2024</p>
                     </div>
                 </div>
 
