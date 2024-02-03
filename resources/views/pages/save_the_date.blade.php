@@ -7,7 +7,7 @@
                 <div class="card-body">
                     <div class="py-5 p-lg-0">
 
-                        <img src="/images/ornament.png" alt="Ornament" width="100px">
+                        {{-- <img src="/images/ornament.png" alt="Ornament" width="100px"> --}}
 
                         <h1 class="font-great-vibes display-1 m-0">Save the date</h1>
                         <hr class="mt-0"/>
