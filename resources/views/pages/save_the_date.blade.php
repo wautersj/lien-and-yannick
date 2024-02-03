@@ -1,6 +1,14 @@
 @extends('layout')
 
 @section('content')
-    <h1 class="font-great-vibes display-1">Lien & Yannick</h1>
-    <h2 class="fw-normal">Save the date</h2>
+    <div class="container">
+        <h1 class="font-great-vibes display-1">Lien & Yannick</h1>
+        <h2 class="fw-normal">Save the date</h2>
+
+        <p>{{$asset}}</p>
+
+        <img src="{{$asset}}" alt="" class="w-100"/>
+
+        <img src="{{ Statamic::tag('glide')->params(['src' => $asset, 'width' => 1200, 'format' => 'webp'])->fetch() }}" alt="Thumb">
+    </div>
 @endsection
