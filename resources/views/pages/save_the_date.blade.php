@@ -1,17 +1,20 @@
 @extends('layout')
 
 @section('content')
-    <div class="container">
-        <h1 class="font-great-vibes display-1">Lien & Yannick</h1>
-        <h2 class="fw-normal">Save the date</h2>
+    <div class="container m-auto">
+        <div class="block">
+            <div class="card shadow-lg card-save-the-date">
+                <div class="card-body">
+                    <div class="py-5 p-lg-0">
+                        <h1 class="font-great-vibes display-1">Save the date</h1>
+                        <p class="fw-normal text-muted m-0">21 09 2024</p>
+                    </div>
+                </div>
 
-        <p>{{$asset}}</p>
-
-
-        <p>Direct:</p>
-        <img src="{{$asset}}" alt="" class="w-100"/>
-
-        <p>Glide:</p>
-        <img src="{{ Statamic::tag('glide')->params(['src' => $asset, 'width' => 1200, 'format' => 'webp'])->fetch() }}" alt="Thumb">
+                <div class="img-wrapper">
+                    <img src="{{ Statamic::tag('glide')->params(['src' => $asset, 'width' => 1200, 'format' => 'webp'])->fetch() }}" alt="Thumb">
+                </div>
+            </div>
+        </div>
     </div>
 @endsection

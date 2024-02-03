@@ -111,7 +111,7 @@ $enable-negative-margins: true;
 
 $font-size-base: 1rem;
 
-// $font-family-sans-serif: 'Poppins', sans-serif;
+$font-family-sans-serif: 'Rethink Sans', sans-serif;
 
 // $headings-font-family: 'Big Shoulders Display', sans-serif;
 $headings-font-weight: 700;
@@ -136,7 +136,7 @@ $paragraph-margin-bottom: 1.125rem;
 // Components
 //
 
-$border-radius: 1rem;
+$border-radius: 4px;
 $border-radius-xs: $border-radius;
 $border-radius-sm: $border-radius;
 $border-radius-lg: $border-radius;
@@ -202,7 +202,7 @@ $input-border-width: 0px;
 //
 
 $card-bg: white;
-// $card-border-width: 0;
+$card-border-width: 0;
 // $card-spacer-y: 1.5rem;
 // $card-spacer-x: 1.5rem;
 
