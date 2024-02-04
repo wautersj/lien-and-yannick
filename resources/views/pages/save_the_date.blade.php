@@ -1,4 +1,4 @@
-@extends('layout')
+@extends('layout-empty')
 
 @section('content')
     <div class="container m-md-auto">

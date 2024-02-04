@@ -69,7 +69,6 @@ $container-padding-x: 3rem;
 // Colors
 //
 
-$blue-dark:#1E2051;
 $blue: #4267B2;
 $blue-light: #68D4F6;
 $green: #00C88E;
@@ -84,7 +83,7 @@ $dark-brown: #2C2929;
 
 
 $primary: #D58932;
-$secondary: #393636;
+$secondary: #7177cb;
 $warning: #F9A826;
 $info: $red;
 $light: #f9f9fa;
@@ -93,7 +92,7 @@ $dark: $dark-brown;
 $body-bg: #F4F4EF;
 $body-color: #202123;
 
-$text-muted:rgba($blue-dark, 0.5);
+$text-muted: rgba($dark, 0.3);
 
 $link-color: $body-color;
 $link-hover-color: $primary;

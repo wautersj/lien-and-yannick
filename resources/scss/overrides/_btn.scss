@@ -1,0 +1,15 @@
+.btn {
+    transition: all 0.33s;
+
+    &.btn-secondary {
+        &:focus,
+        &:hover {
+            color: white;
+        }
+    }
+
+    &:focus,
+    &:hover {
+        transform: scale(1.05);
+    }
+}

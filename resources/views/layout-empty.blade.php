@@ -11,7 +11,5 @@
 
     <body class="page-{{$blueprint->value()->handle}}">
         @yield('content')
-
-        @include('main.footer')
     </body>
 </html>
