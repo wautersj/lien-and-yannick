@@ -19,7 +19,7 @@
 
                 <div>
                     <div class="img-wrapper">
-                        <img src="{{ Statamic::tag('glide')->params(['src' => $asset, 'width' => 1200, 'format' => 'webp'])->fetch() }}" alt="Thumb">
+                        <img src="{{ Statamic::tag('glide')->params(['src' => $asset, 'width' => 1200, 'height' => 1200, 'format' => 'webp'])->fetch() }}" alt="Thumb">
                     </div>
                 </div>
             </div>

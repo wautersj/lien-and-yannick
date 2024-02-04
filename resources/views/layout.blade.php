@@ -8,7 +8,8 @@
 
         @vite(['resources/js/site.js', 'resources/scss/site.scss'])
     </head>
-    <body class="">
+
+    <body class="page-{{$blueprint->value()->handle}}">
         @yield('content')
     </body>
 </html>
