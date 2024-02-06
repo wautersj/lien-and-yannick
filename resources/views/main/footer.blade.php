@@ -42,4 +42,6 @@
             <p><a href="https://wautersj.be" target="_blank">Wautersj.be</a> &copy; {{ date("Y") }}</p>
         </div>
     </div>
+
+    <div class="backgound-image"></div>
 </footer>
