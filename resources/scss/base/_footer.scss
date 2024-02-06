@@ -16,10 +16,10 @@ footer {
         height: 100%;
         top: 0;
         left: 0;
-        background: url('../../../public/assets/img_20210125_142638.jpg'), linear-gradient(60deg, rgb(30, 33, 61) 0%, rgb(76 85 168) 100%);
-        background-size: cover;
-        background-blend-mode: luminosity;
-        background-position: 50% 75%;
+        // background: url('../../../public/assets/img_20210125_142638.jpg'), linear-gradient(60deg, rgb(30, 33, 61) 0%, rgb(76 85 168) 100%);
+        background-size: cover!important;
+        background-blend-mode: luminosity!important;
+        background-position: 50% 75%!important;
         opacity: 0.2;
     }
 
