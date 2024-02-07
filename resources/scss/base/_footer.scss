@@ -2,11 +2,11 @@ footer {
     position: relative;
     overflow: hidden;
 
-    background: linear-gradient(60deg, rgb(30, 33, 61) 0%, rgb(76 85 168) 100%);
+    // background: linear-gradient(60deg, rgb(30, 33, 61) 0%, rgb(76 85 168) 100%);
     background-size: cover;
     background-blend-mode: luminosity;
     background-position: 50% 90%;
-    // background-color: rgb(30, 33, 61);
+    background-color: rgb(30, 33, 61);
     // background-color: rgb(38 66 139);
 
     color:white;
@@ -21,7 +21,8 @@ footer {
         background-size: cover!important;
         background-blend-mode: luminosity!important;
         background-position: 50% 75%!important;
-        opacity: 0.2;
+        background-color: rgb(30, 33, 61);
+        opacity: 0.1;
     }
 
     .top-content {

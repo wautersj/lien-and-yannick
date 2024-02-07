@@ -44,6 +44,6 @@
     </div>
 
     @if($layout->footer_image)
-        <div class="backgound-image" style="background: url({{ Statamic::tag('glide')->params(['src' => $layout->footer_image, 'width' => 1200, 'height' => 900, 'format' => 'webp'])->fetch() }}), linear-gradient(60deg, rgb(30, 33, 61) 0%, rgb(76 85 168) 100%);"></div>
+        <div class="backgound-image" style="background: url({{ Statamic::tag('glide')->params(['src' => $layout->footer_image, 'width' => 1200, 'height' => 900, 'format' => 'webp'])->fetch() }}), rgb(30, 33, 61);"></div>
     @endif
 </footer>
