@@ -12,6 +12,8 @@ tabs:
               required: true
               validate:
                 - required
+          -
+            import: pictures-grid-card
   sidebar:
     display: Sidebar
     sections:

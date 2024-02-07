@@ -1,0 +1,29 @@
+title: card-pictures-grid
+fields:
+  -
+    handle: card_pictures_grid_section
+    field:
+      type: section
+      display: 'Card Pictures grid'
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
+  -
+    handle: card_pictures_grid_assets
+    field:
+      max_files: 6
+      mode: list
+      container: assets
+      restrict: false
+      allow_uploads: true
+      show_filename: true
+      show_set_alt: true
+      type: assets
+      display: 'Card pictures grid Assets'
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
