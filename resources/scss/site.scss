@@ -2,8 +2,9 @@
 // Base
 //
 
-@import "base/fonts";
 @import "base/bootstrap-variables";
+@import "base/fonts";
+@import "base/utils";
 @import "base/html-body";
 @import "base/footer";
 
@@ -17,6 +18,7 @@
 @import "components/block";
 @import "components/card-save-the-date";
 @import "components/card-pictures-grid";
+@import "components/clock";
 
 
 //

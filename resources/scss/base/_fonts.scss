@@ -1,7 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rethink+Sans&display=swap');
 
-.font-great-vibes {
-    font-family: 'Great Vibes', cursive;
-    font-weight: 400;
+// .font-great-vibes {
+//     font-family: 'Great Vibes', cursive;
+//     font-weight: 400;
+// }
+
+// h1.font-great-vibes,
+// .font-great-vibes h1 {
+//     @include font-size(5rem);
+// }
+
+p, ul, ol {
+    letter-spacing: 0.5px;
 }

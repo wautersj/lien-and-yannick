@@ -1,52 +1,45 @@
 footer {
     position: relative;
     overflow: hidden;
-
-    // background: linear-gradient(60deg, rgb(30, 33, 61) 0%, rgb(76 85 168) 100%);
-    background-size: cover;
-    background-blend-mode: luminosity;
-    background-position: 50% 90%;
-    background-color: rgb(30, 33, 61);
-    // background-color: rgb(38 66 139);
+    background-color: $dark;
 
     color:white;
-
-    .backgound-image {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        // background: url('../../../public/assets/img_20210125_142638.jpg'), linear-gradient(60deg, rgb(30, 33, 61) 0%, rgb(76 85 168) 100%);
-        background-size: cover!important;
-        background-blend-mode: luminosity!important;
-        background-position: 50% 75%!important;
-        background-color: rgb(30, 33, 61);
-        opacity: 0.1;
-    }
 
     .top-content {
         position: relative;
         z-index: 3;
         text-align: center;
-        padding: 8rem 0 7rem 0;
+        padding: 8rem 0;
 
         &,
         * {
             color: white;
+        }
+
+        @include media-breakpoint-up(md) {
+
+        }
+
+        @include media-breakpoint-up(lg) {
+
+        }
+
+        @include media-breakpoint-up(xl) {
+            padding: 12rem 0;
         }
     }
 
     .bottom-content {
         position: relative;
         z-index: 3;
-        background: white;
+        background: $dark;
         overflow: hidden;
         text-align: center;
-        padding: 3rem 0;
+        padding: 1rem 0;
+        display: none;
 
         * {
-            color: rgba($dark, 0.4);
+            color: rgba($light, 0.4);
         }
 
         *:last-child {
@@ -54,50 +47,7 @@ footer {
         }
     }
 
-    .waves {
-        position:relative;
-        z-index: 3;
-        width: 100%;
-        height:15vh;
-        margin-bottom:-7px; /*Fix for safari gap*/
-        min-height:100px;
-        max-height:150px;
-    }
-
-    /* Animation */
-
-    .parallax > use {
-        animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
-    }
-    .parallax > use:nth-child(1) {
-        animation-delay: -2s;
-        animation-duration: 7s;
-    }
-    .parallax > use:nth-child(2) {
-        animation-delay: -3s;
-        animation-duration: 10s;
-    }
-    .parallax > use:nth-child(3) {
-        animation-delay: -4s;
-        animation-duration: 13s;
-    }
-    .parallax > use:nth-child(4) {
-        animation-delay: -5s;
-        animation-duration: 20s;
-    }
-    @keyframes move-forever {
-        0% {
-            transform: translate3d(-90px,0,0);
-        }
-        100% {
-            transform: translate3d(85px,0,0);
-        }
-    }
-    /*Shrinking for mobile*/
-    @media (max-width: 768px) {
-        .waves {
-            height:40px;
-            min-height:40px;
-        }
+    .background-image {
+        background-position: 50% 75%;
     }
 }

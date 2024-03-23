@@ -1,5 +1,11 @@
 .btn {
     transition: all 0.33s;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    &.btn-primary {
+        color: rgba(0,0,0,0.6);
+    }
 
     &.btn-secondary {
         &:focus,
@@ -10,6 +16,6 @@
 
     &:focus,
     &:hover {
-        transform: scale(1.05);
+        transform: scale(1.06);
     }
 }

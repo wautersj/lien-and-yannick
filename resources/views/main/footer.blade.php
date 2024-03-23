@@ -1,27 +1,15 @@
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-
 <footer>
 
     <div class="top-content">
         <div class="container">
-            <h2>Hopelijk kom jij ook?</h2>
+            <h1 class="font-great-vibes">Hopelijk kom jij ook?</h1>
             <p class="lead">Laat het ons weten door ons RSVP formulier in te vullen. Tot dan!</p>
-            <a href="#" class="btn btn-secondary mt-3">Aanwezigheid bevestigen</a>
+            <a href="#" class="btn btn-primary btn-lg mt-3">Aanwezigheid bevestigen</a>
         </div>
     </div>
 
     <!--Waves Container-->
-    <div>
+    {{-- <div>
         <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
         viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
         <defs>
@@ -34,7 +22,7 @@
         <use xlink:href="#gentle-wave" x="48" y="7" fill="rgba(255,255,255,1)" />
         </g>
         </svg>
-    </div>
+    </div> --}}
     <!--Waves end-->
 
     <div class="bottom-content">
@@ -44,6 +32,6 @@
     </div>
 
     @if($layout->footer_image)
-        <div class="backgound-image" style="background: url({{ Statamic::tag('glide')->params(['src' => $layout->footer_image, 'width' => 1200, 'height' => 900, 'format' => 'webp'])->fetch() }}), rgb(30, 33, 61);"></div>
+        <div class="backgound-image" style="background: url({{ Statamic::tag('glide')->params(['src' => $layout->footer_image, 'width' => 1200, 'height' => 600, 'format' => 'webp'])->fetch() }});"></div>
     @endif
 </footer>

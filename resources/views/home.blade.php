@@ -2,10 +2,11 @@
 
 @section('content')
     @include('partials.header')
+    @include('partials.clock')
 
-    @include('partials.card-pictures-grid')
+    {{-- @include('partials.card-pictures-grid') --}}
 
-    <div class="container m-auto py-3">
+    {{-- <div class="container m-auto py-3">
         <div class="card">
             <div class="card-body">
                 <h1>Home</h1>
@@ -16,5 +17,5 @@
                 <h1>Home</h1>
             </div>
         </div>
-    </div>
+    </div> --}}
 @endsection

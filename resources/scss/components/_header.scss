@@ -1,3 +1,43 @@
-// header {
+header {
+    position: relative;
+    overflow: hidden;
+    color:white;
+    background-color: $dark;
 
-// }
+    height: 80vh;
+    min-height: 400px;
+    max-height: 700px;
+
+    display: flex;
+    align-items: center;
+
+    .container {
+        position: relative;
+        z-index: 10;
+        width: 100%;
+        text-align: center;
+        padding-top: 10vh;
+
+        &,
+        h1, h2, h3 {
+            color: white;
+        }
+
+        h1 {
+            @include font-size(6rem);
+        }
+
+        .caption + h1 {
+            margin-top: -1rem;
+        }
+
+        .down-icon {
+            display: inline-block;
+            font-size: 1.5rem;
+        }
+    }
+
+    .backgound-image {
+        background-position: 50% 62%;
+    }
+}
