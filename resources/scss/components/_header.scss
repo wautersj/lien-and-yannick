@@ -28,7 +28,13 @@ header {
         }
 
         .caption + h1 {
-            margin-top: -1rem;
+            @include media-breakpoint-up(md) {
+                margin-top: -0.5rem;
+            }
+
+            @include media-breakpoint-up(lg) {
+                margin-top: -1rem;
+            }
         }
 
         .down-icon {

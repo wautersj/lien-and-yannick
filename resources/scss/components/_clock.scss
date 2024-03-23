@@ -4,14 +4,32 @@
     padding: 3rem 0;
 
     .clock {
-        max-width: 80%;
-        display: flex;
         margin-inline-start: auto;
         margin-inline-end: auto;
+
+        @include media-breakpoint-up(md) {
+            display: flex;
+        }
+
+        @include media-breakpoint-up(lg) {
+
+        }
+
+        @include media-breakpoint-up(xl) {
+            max-width: 80%;
+        }
 
         .item {
             text-align: center;
             flex: 1;
+
+            &:not(:last-child) {
+                margin-bottom: 2rem;
+
+                @include media-breakpoint-up(md) {
+                    margin-bottom: 0;
+                }
+            }
 
             .num {
                 font-family: $headings-font-family;
