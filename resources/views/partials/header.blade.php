@@ -28,6 +28,6 @@
     </div>
 
     @if($header_image ?? null)
-        <div class="backgound-image" style="background-image: url({{ Statamic::tag('glide')->params(['src' => $header_image, 'width' => 1500, 'height' => 750, 'format' => 'webp'])->fetch() }});"></div>
+        <div class="background-image" style="background-image: url({{ Statamic::tag('glide')->params(['src' => $header_image, 'width' => 1500, 'height' => 750, 'format' => 'webp'])->fetch() }});"></div>
     @endif
 </header>

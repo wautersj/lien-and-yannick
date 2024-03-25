@@ -32,6 +32,6 @@
     </div>
 
     @if($layout->footer_image)
-        <div class="backgound-image" style="background: url({{ Statamic::tag('glide')->params(['src' => $layout->footer_image, 'width' => 1200, 'height' => 600, 'format' => 'webp'])->fetch() }});"></div>
+        <div class="background-image" style="background-image: url({{ Statamic::tag('glide')->params(['src' => $layout->footer_image, 'width' => 1200, 'height' => 600, 'format' => 'webp'])->fetch() }});"></div>
     @endif
 </footer>
