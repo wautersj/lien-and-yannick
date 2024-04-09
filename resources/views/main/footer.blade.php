@@ -2,9 +2,9 @@
 
     <div class="top-content">
         <div class="container">
-            <h1 class="font-great-vibes">Hopelijk kom jij ook?</h1>
+            <h1>Hopelijk kom jij ook?</h1>
             <p class="lead">Laat het ons weten door ons RSVP formulier in te vullen. Tot dan!</p>
-            <a href="#" class="btn btn-primary btn-lg mt-3">Aanwezigheid bevestigen</a>
+            <a href="/rsvp" target="_blank" class="btn btn-secondary btn-lg mt-3">Aanwezigheid bevestigen</a>
         </div>
     </div>
 

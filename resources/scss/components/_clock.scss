@@ -1,7 +1,4 @@
 .clock-section {
-    background: $dark;
-    color: white;
-    padding: 3rem 0;
 
     .clock {
         margin-inline-start: auto;
@@ -32,17 +29,19 @@
             }
 
             .num {
+                color: #d7d5bf;
                 font-family: $headings-font-family;
-                font-weight: 400;
-                @include font-size(3rem);
+                font-weight: 600;
+                @include font-size(4rem);
                 line-height: 1;
+                opacity: 0.75;
             }
 
             .text {
                 &.caption {
-                    @include font-size(0.8rem);
+                    @include font-size(0.85rem);
                     font-weight: 600;
-                    color: $secondary;
+                    color: $dark;
                     margin-top: 0.5rem;
                 }
 

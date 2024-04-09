@@ -1,0 +1,23 @@
+.navbar {
+    &.nav-overflow {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 10;
+    }
+
+    .navbar-nav {
+        .nav-item {
+            @include media-breakpoint-up(lg) {
+                margin-inline-start: 1.25rem;
+                margin-inline-end: 1.25rem;
+            }
+
+            @include media-breakpoint-up(xl) {
+                margin-inline-start: 1.75rem;
+                margin-inline-end: 1.75rem;
+            }
+        }
+    }
+}

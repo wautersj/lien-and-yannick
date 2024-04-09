@@ -1,8 +1,16 @@
 @extends('layout')
 
 @section('content')
+    @include('main.navigation', [
+        'nav_overflow' => true
+    ])
+
     @include('partials.header')
     @include('partials.clock')
+
+    <div class="container"><hr class="w-75 mx-auto d-none d-md-block"/></div>
+
+    @include('partials.timeline')
 
     {{-- @include('partials.card-pictures-grid') --}}
 

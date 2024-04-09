@@ -2,7 +2,8 @@ header {
     position: relative;
     overflow: hidden;
     color:white;
-    background-color: $dark;
+    // background-color: $dark;
+    background-color: $picture-background-color;
 
     height: 80vh;
     min-height: 400px;
@@ -24,6 +25,7 @@ header {
         }
 
         h1 {
+            font-family: 'Great Vibes', cursive;
             @include font-size(6rem);
         }
 
@@ -43,7 +45,7 @@ header {
         }
     }
 
-    .backgound-image {
+    .background-image {
         background-position: 50% 62%;
     }
 }

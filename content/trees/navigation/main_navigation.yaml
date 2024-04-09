@@ -1,0 +1,23 @@
+tree:
+  -
+    id: 9ab40714-cd83-41d0-b665-631d8209c979
+    title: Home
+    url: /
+  -
+    id: f4b963b7-1a08-437f-80b3-aecc82e4a630
+    title: Praktisch
+    url: /
+  -
+    id: 9ff727ee-b596-4abe-93fc-3c6c3590632c
+    title: Overnachtingen
+  -
+    id: 8f03fb30-3568-41ff-9478-1643b197b2bb
+    title: 'Team Wedding'
+    url: /
+  -
+    id: 117761b4-83d5-4791-8909-25ccca1e63af
+    title: RSVP
+    url: /rsvp
+  -
+    id: e85a279e-ceb6-4469-ac86-1eb1f86bc9f6
+    title: FAQ

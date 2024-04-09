@@ -29,6 +29,8 @@ tabs:
               visibility: visible
               replicator_preview: true
               hide_display: false
+          -
+            import: timeline
   sidebar:
     display: Sidebar
     sections:

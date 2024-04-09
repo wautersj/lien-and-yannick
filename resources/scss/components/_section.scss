@@ -1,0 +1,11 @@
+.section {
+    padding: 3rem 0;
+
+    @include media-breakpoint-up(lg) {
+        padding: 4rem 0;
+    }
+
+    &.collapse {
+        padding-top: 0!important;
+    }
+}

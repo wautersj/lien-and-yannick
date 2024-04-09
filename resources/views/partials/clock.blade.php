@@ -1,5 +1,9 @@
-<div class="clock-section">
+<div class="section clock-section">
     <div class="container">
+
+        <h2 class="h1 text-center mb-3 mb-lg-4 mb-xl-7 d-md-none">Wij tellen af ...</h2>
+        <h2 class="text-center mb-3 mb-lg-4 mb-xl-7 d-none d-md-block">Wij tellen af ...</h2>
+
         <div class="clock">
             <div class="item months">
                 <div class="num">9</div>

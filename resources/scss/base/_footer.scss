@@ -1,7 +1,8 @@
 footer {
     position: relative;
     overflow: hidden;
-    background-color: $dark;
+    // background-color: $dark;
+    background-color: $picture-background-color;
     color:white;
 
     .top-content {
@@ -9,10 +10,11 @@ footer {
         z-index: 3;
         text-align: center;
         padding: 8rem 0;
+        color: white;
 
         &,
-        * {
-            color: white;
+        h1, h2, h3 h4, h5, h6 {
+            color: white
         }
 
         @include media-breakpoint-up(md) {

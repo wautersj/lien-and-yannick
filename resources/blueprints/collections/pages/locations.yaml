@@ -1,0 +1,182 @@
+title: Locations
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              validate:
+                - required
+          -
+            handle: caption
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: Caption
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
+            handle: locations
+            field:
+              collapse: false
+              previews: true
+              fullscreen: true
+              sets:
+                new_set_group:
+                  display: 'New Set Group'
+                  instructions: null
+                  icon: null
+                  sets:
+                    new_set:
+                      display: 'New Set'
+                      instructions: null
+                      icon: null
+                      fields:
+                        -
+                          handle: title
+                          field:
+                            input_type: text
+                            antlers: false
+                            type: text
+                            display: Title
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            replicator_preview: true
+                            hide_display: false
+                        -
+                          handle: asset
+                          field:
+                            mode: list
+                            container: assets
+                            restrict: false
+                            allow_uploads: true
+                            show_filename: true
+                            show_set_alt: true
+                            type: assets
+                            display: Asset
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            replicator_preview: true
+                            hide_display: false
+                            max_files: 1
+                        -
+                          handle: adres_line_1
+                          field:
+                            input_type: text
+                            antlers: false
+                            type: text
+                            display: 'Adres line 1'
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            replicator_preview: true
+                            hide_display: false
+                        -
+                          handle: adres_line_2
+                          field:
+                            input_type: text
+                            antlers: false
+                            type: text
+                            display: 'Adres line 2'
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            replicator_preview: true
+                            hide_display: false
+                        -
+                          handle: distance_line_1
+                          field:
+                            input_type: text
+                            antlers: false
+                            type: text
+                            display: 'Distance line 1'
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            replicator_preview: true
+                            hide_display: false
+                        -
+                          handle: distance_line_2
+                          field:
+                            input_type: text
+                            antlers: false
+                            type: text
+                            display: 'Distance line 2'
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            replicator_preview: true
+                            hide_display: false
+                        -
+                          handle: distance_line_3
+                          field:
+                            input_type: text
+                            antlers: false
+                            type: text
+                            display: 'Distance line 3'
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            replicator_preview: true
+                            hide_display: false
+                        -
+                          handle: extra_content
+                          field: rich_bard.rich_bard
+                          config:
+                            display: 'Extra content'
+              type: replicator
+              display: Locations
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'
+          -
+            handle: parent
+            field:
+              type: entries
+              collections:
+                - pages
+              max_items: 1
+              listable: false
+              localizable: true
+  admin:
+    display: Admin
+    sections:
+      -
+        display: 'New Section'
+        fields:
+          -
+            handle: template
+            field:
+              hide_partials: true
+              blueprint: false
+              type: template
+              display: Template
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false

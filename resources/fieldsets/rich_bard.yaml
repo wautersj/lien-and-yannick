@@ -1,0 +1,64 @@
+title: 'Rich bard'
+fields:
+  -
+    handle: rich_bard
+    field:
+      buttons:
+        - h1
+        - h2
+        - h3
+        - h4
+        - h5
+        - bold
+        - italic
+        - unorderedlist
+        - removeformat
+        - anchor
+      smart_typography: false
+      save_html: false
+      inline: false
+      toolbar_mode: fixed
+      reading_time: false
+      word_count: false
+      fullscreen: true
+      allow_source: true
+      enable_input_rules: true
+      enable_paste_rules: true
+      remove_empty_nodes: false
+      antlers: false
+      link_noopener: false
+      link_noreferrer: false
+      target_blank: false
+      sets:
+        options:
+          display: Options
+          instructions: null
+          icon: null
+          sets:
+            caption:
+              display: Caption
+              instructions: null
+              icon: null
+              fields:
+                -
+                  handle: caption
+                  field:
+                    input_type: text
+                    antlers: false
+                    type: text
+                    display: Caption
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    replicator_preview: true
+                    hide_display: false
+      always_show_set_button: false
+      collapse: false
+      previews: true
+      type: bard
+      display: 'Rich bard'
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false

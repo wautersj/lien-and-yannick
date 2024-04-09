@@ -3,6 +3,11 @@
     flex-direction: column;
     overflow: hidden;
 
+    h1 {
+        font-family: 'Great Vibes', cursive;
+        @include font-size(6rem);
+    }
+
     @include media-breakpoint-up(md) {
         flex-direction: row;
         min-height: 400px;

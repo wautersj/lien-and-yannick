@@ -1,21 +1,38 @@
 .btn {
     transition: all 0.33s;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    // text-transform: uppercase;
+    letter-spacing: 0.5px;
+    display: inline-flex;
+    align-items: center;
 
     &.btn-primary {
         color: rgba(0,0,0,0.6);
     }
 
     &.btn-secondary {
+        // color: rgba($dark, 0.75);
+        color: darken($secondary, 35%);
+
         &:focus,
         &:hover {
-            color: white;
+            color: darken($secondary, 45%);
         }
     }
 
     &:focus,
     &:hover {
         transform: scale(1.06);
+    }
+
+    i {
+        margin-inline-end: 0.5rem;
+        font-size: 1.35rem;
+    }
+
+    &.btn-lg {
+        i {
+            margin-inline-end: 0.5rem;
+            font-size: 1.65rem;
+        }
     }
 }

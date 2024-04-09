@@ -10,15 +10,15 @@
 
                             {{-- <img src="/images/ornament.png" alt="Ornament" width="100px"> --}}
 
-                            <h1 class="font-great-vibes display-1 m-0">Save the date</h1>
+                            <h1 class="display-1 m-0">Save the date</h1>
                             <hr class="mt-0"/>
-                            <p class="fw-normal text-muted m-0">21 / 09 / 2024</p>
+                            <p class="caption m-0">21 / 09 / 2024</p>
                         </div>
                     </div>
                 </div>
 
                 <div>
-                    <div class="img-wrapper">
+                    <div class="img-wrapper asset-luminosity">
                         <img src="{{ Statamic::tag('glide')->params(['src' => $asset, 'width' => 1200, 'height' => 700, 'format' => 'webp'])->fetch() }}" alt="Thumb">
                     </div>
                 </div>

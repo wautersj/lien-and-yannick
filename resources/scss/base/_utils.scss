@@ -5,19 +5,52 @@
     top: 0;
     left: 0;
     background-size: cover!important;
+    background-position: center;
     opacity: 0.5;
     mix-blend-mode: luminosity;
 }
 
 .caption {
-    font-weight: 400;
+    font-weight: 600;
     margin: 0;
     letter-spacing: 3px;
     text-transform: uppercase;
+    opacity: 0.5;
 }
 
 .rings-svg {
     width: 2.3rem;
     height: auto;
     margin: 0 0 1rem 0;
+
+    @include media-breakpoint-up(lg) {
+        width: 2.5rem;
+    }
+
+    @include media-breakpoint-up(xl) {
+        width: 3rem;
+    }
+}
+
+.asset-luminosity {
+    // background: #fbefcc;
+    background: #f6edd3;
+    opacity: 0.85;
+
+    img {
+        mix-blend-mode: luminosity;
+    }
+
+    // &:before {
+    //     content: '';
+    //     position: absolute;
+    //     width: 100%;
+    //     height: 100%;
+    //     top: 0;
+    //     left: 0;
+    //     box-shadow: inset 0px 0px 40px 80px rgb(244, 244, 239);
+    //     z-index: 100;
+    //     border-radius: 100%;
+    //     transform: scale(1.01);
+    // }
 }
