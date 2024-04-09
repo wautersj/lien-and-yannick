@@ -8,7 +8,7 @@ $(function () {
         return;
     }
 
-    var targetDate = new Date('2024-09-21 10:00')
+    var targetDate = new Date('2024-09-21 12:30');
     var targetTime = targetDate.getTime();
 
     function calculate() {
