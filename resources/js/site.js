@@ -5,4 +5,5 @@ window.jQuery = window.$ = $
 
 import 'bootstrap';
 
+import './animation';
 import './clock';

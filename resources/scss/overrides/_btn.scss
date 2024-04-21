@@ -4,6 +4,7 @@
     letter-spacing: 0.5px;
     display: inline-flex;
     align-items: center;
+    justify-content: center;
 
     &.btn-primary {
         color: rgba(0,0,0,0.6);
@@ -19,9 +20,11 @@
         }
     }
 
-    &:focus,
-    &:hover {
-        transform: scale(1.06);
+    &:not(.btn-sm):not(.no-scale) {
+        &:focus,
+        &:hover {
+            transform: scale(1.06);
+        }
     }
 
     i {

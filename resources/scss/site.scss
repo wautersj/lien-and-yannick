@@ -7,6 +7,7 @@
 @import "base/utils";
 @import "base/html-body";
 @import "base/footer";
+@import "base/to-animate";
 
 
 //
@@ -15,13 +16,17 @@
 
 @import "components/header";
 @import "components/shadow";
+@import "components/bard-content";
 @import "components/block";
 @import "components/card-save-the-date";
 @import "components/card-pictures-grid";
+@import "components/card-detail-info";
 @import "components/section";
 @import "components/clock";
 @import "components/timeline";
+@import "components/timeline-grid";
 @import "components/left-right";
+@import "components/icon-text";
 
 
 //

@@ -11,7 +11,7 @@
 
 @endforeach
 
-<nav class="navbar navbar-expand-lg  {{ $nav_overflow ? 'navbar-dark nav-overflow' : '' }}">
+<nav class="navbar navbar-expand-lg  {{ $nav_overflow ? 'navbar-dark nav-overflow' : 'bg-white' }}">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">L&Y</a>
       <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

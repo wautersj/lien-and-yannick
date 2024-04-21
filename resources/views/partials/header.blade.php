@@ -2,12 +2,17 @@
 
 @endphp
 
-<header>
+<header class="js-animated-block">
+
+    @if($header_image ?? null)
+        <div class="background-image js-animated-element to-animate animate-zoom-out animate-slow prepared" style="background-image: url({{ Statamic::tag('glide')->params(['src' => $header_image, 'width' => 1500, 'height' => 750, 'format' => 'webp'])->fetch() }});"></div>
+    @endif
+
     <div class="container">
 
         {{-- <img src="/images/wedding-ring.svg" alt=""> --}}
 
-        <svg class="rings-svg text-secondary" height="800px" width="800px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        <svg class="rings-svg text-secondary js-animated-element to-animate animate-rings prepared" height="800px" width="800px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
             viewBox="0 0 25.626 25.626" xml:space="preserve">
         <g>
             <path style="fill:currentColor;" d="M16.812,4.001c-0.997,0-1.952,0.174-2.846,0.479C15.032,5.142,15.96,6,16.703,7.007
@@ -21,13 +26,9 @@
         </g>
         </svg>
 
-        <p class="caption">Lien & Yannick</p>
-        <h1>Wij gaan trouwen</h1>
+        <p class="caption js-animated-element to-animate animate-from-bottom prepared">Lien & Yannick</p>
+        <h1 class="js-animated-element to-animate animate-from-bottom prepared">Wij gaan trouwen</h1>
 
-        <i class="down-icon ph ph-arrow-down"></i>
+        <i class="down-icon ph-bold ph-arrow-down text-secondary js-animated-element to-animate animate-from-bottom animate-delay-3 prepared"></i>
     </div>
-
-    @if($header_image ?? null)
-        <div class="background-image" style="background-image: url({{ Statamic::tag('glide')->params(['src' => $header_image, 'width' => 1500, 'height' => 750, 'format' => 'webp'])->fetch() }});"></div>
-    @endif
 </header>

@@ -69,7 +69,7 @@
                 padding-bottom: 0;
             }
 
-            h2, .h2 {
+            h3, .h3 {
                 position: relative;
                 z-index: 10;
 
@@ -120,14 +120,12 @@
             .asset {
                 position: relative;
                 width: 100%;
+                overflow: visible;
+                background-color: $picture-background-color;
                 overflow: hidden;
-                border-radius: 100%;
+                border-radius: 0.75rem;
 
-                @include media-breakpoint-up(lg) {
-                    box-shadow: 0px 0px 100px 50px rgb(255 255 255);
-                }
-
-                &::after {
+                &::before {
                     content: '';
                     padding-top: 100%;
                     display: block;
@@ -141,8 +139,24 @@
                     top: 0;
                     left: 0;
                     object-fit: cover;
-                    // border-radius: 100%; //
+
+                    @include media-breakpoint-up(lg) {
+                        // box-shadow: 0px 0px 100px 50px rgb(255 255 255);
+                    }
                 }
+
+                // &:after {
+                //     content: '';
+                //     display: block;
+                //     width: 100%;
+                //     height: 100%;
+                //     background: #d7d5bf;
+                //     position: absolute;
+                //     top: 0.75rem;
+                //     left: 0.75rem;
+                //     border-radius: 0.75rem;
+
+                // }
             }
         }
 
@@ -161,14 +175,14 @@
                     text-align: end;
                 }
 
-                h2:before,
+                h3:before,
                 &:before {
                     @include media-breakpoint-up(lg) {
                         right: -20%;
                     }
                 }
 
-                h2:before {
+                h3:before {
 
                     @include media-breakpoint-up(lg) {
                         transform: translateX(17px);
@@ -203,14 +217,14 @@
                     order: 12;
                 }
 
-                h2:before,
+                h3:before,
                 &:before {
                     @include media-breakpoint-up(lg) {
                         left: calc( -20% - 2px );
                     }
                 }
 
-                h2:before {
+                h3:before {
                     @include media-breakpoint-up(lg) {
                         transform: translateX(-17px);
                     }

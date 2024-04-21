@@ -29,9 +29,9 @@
                     <div class="col-12 col-lg-5 col-xl-5 col-asset">
 
                         @php($asset = $row->asset)
-                        <div class="asset asset-luminosity @if( empty($item["asset"]) ) empty @endif js-animated-element to-animate animate-from-bottom prepared">
+                        <div class="asset @if( empty($item["asset"]) ) empty @endif js-animated-element to-animate animate-from-bottom prepared">
                             @if( !empty($asset->id) )
-                                <img src="{{ Statamic::tag('glide')->params(['src' => $asset->id, 'width' => 960, 'format' => 'webp'])->fetch() }}" alt="{{ $asset->alt ?? "" }}">
+                                <img src="{{ Statamic::tag('glide')->params(['src' => $asset->id, 'width' => 960, 'height' => 960, 'format' => 'webp'])->fetch() }}" alt="{{ $asset->alt ?? "" }}">
                             @endif
                         </div>
 

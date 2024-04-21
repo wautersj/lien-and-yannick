@@ -3,7 +3,7 @@ id: 9e3abbae-ac4a-457f-b658-ca64bff176c5
 blueprint: homepage
 title: 'Lien & Yannick'
 updated_by: 414ad70c-93cd-49fd-929f-b8a2a80718bf
-updated_at: 1712410792
+updated_at: 1713696359
 template: pages/home
 pictures_grid_card_assets:
   - img_20190922_134121.jpg
@@ -32,7 +32,7 @@ rows:
       -
         type: heading
         attrs:
-          level: 2
+          level: 3
         content:
           -
             type: text
@@ -42,13 +42,13 @@ rows:
         content:
           -
             type: text
-            text: 'Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, ...'
+            text: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. '
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, ...'
+            text: 'Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage.'
     asset: img_20190922_134121.jpg
     type: new_item
     enabled: true
@@ -65,7 +65,7 @@ rows:
       -
         type: heading
         attrs:
-          level: 2
+          level: 3
         content:
           -
             type: text
@@ -75,15 +75,13 @@ rows:
         content:
           -
             type: text
-            text: 'Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, ...'
+            text: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. '
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, ...'
-      -
-        type: paragraph
+            text: 'Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage.'
     asset: img_20210125_142638.jpg
     type: new_item
     enabled: true
@@ -100,7 +98,7 @@ rows:
       -
         type: heading
         attrs:
-          level: 2
+          level: 3
         content:
           -
             type: text
@@ -110,13 +108,13 @@ rows:
         content:
           -
             type: text
-            text: 'Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, ...'
+            text: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. '
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, ...'
+            text: 'Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage.'
     asset: img20230716202904.jpg
     type: new_item
     enabled: true
@@ -133,7 +131,7 @@ rows:
       -
         type: heading
         attrs:
-          level: 2
+          level: 3
         content:
           -
             type: text
@@ -143,13 +141,13 @@ rows:
         content:
           -
             type: text
-            text: 'Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, ...'
+            text: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. '
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, ...'
+            text: 'Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage.'
     asset: whatsapp-image-2024-01-01-at-16.08.56.jpeg
     type: new_item
     enabled: true
@@ -162,11 +160,11 @@ rows:
           id: luo0lzgy
           values:
             type: caption
-            caption: '2024'
+            caption: 21/09/2024
       -
         type: heading
         attrs:
-          level: 2
+          level: 3
         content:
           -
             type: text
@@ -176,13 +174,13 @@ rows:
         content:
           -
             type: text
-            text: 'Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, ...'
+            text: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. '
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, ...'
+            text: 'Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage.'
     asset: img-20231001-wa0051.jpg
     type: new_item
     enabled: true

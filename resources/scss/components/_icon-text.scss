@@ -1,0 +1,12 @@
+.icon-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+
+    i {
+        font-size: 1.2rem;
+        margin-inline-end: 0.6rem;
+        // color: $secondary;
+    }
+}

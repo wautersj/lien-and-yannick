@@ -131,6 +131,42 @@ tabs:
                             replicator_preview: true
                             hide_display: false
                         -
+                          handle: distance_by_car
+                          field:
+                            input_type: text
+                            antlers: false
+                            type: text
+                            display: 'Distance by car'
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            replicator_preview: true
+                            hide_display: false
+                        -
+                          handle: distance_by_bike
+                          field:
+                            input_type: text
+                            antlers: false
+                            type: text
+                            display: 'Distance by bike'
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            replicator_preview: true
+                            hide_display: false
+                        -
+                          handle: distance_by_foot
+                          field:
+                            input_type: text
+                            antlers: false
+                            type: text
+                            display: 'Distance by foot'
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            replicator_preview: true
+                            hide_display: false
+                        -
                           handle: extra_content
                           field: rich_bard.rich_bard
                           config:

@@ -8,9 +8,10 @@
     @include('partials.header')
     @include('partials.clock')
 
-    <div class="container"><hr class="w-75 mx-auto d-none d-md-block"/></div>
+    {{-- <div class="container"><hr class="w-75 mx-auto d-none d-md-block"/></div> --}}
 
-    @include('partials.timeline')
+    {{-- @include('partials.timeline') --}}
+    @include('partials.timeline-grid')
 
     {{-- @include('partials.card-pictures-grid') --}}
 

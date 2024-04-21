@@ -5,9 +5,9 @@ header {
     // background-color: $dark;
     background-color: $picture-background-color;
 
-    height: 80vh;
+    height: 87vh;
     min-height: 400px;
-    max-height: 700px;
+    max-height: 800px;
 
     display: flex;
     align-items: center;
@@ -25,7 +25,7 @@ header {
         }
 
         h1 {
-            font-family: 'Great Vibes', cursive;
+            font-family: $font-family-writing;
             @include font-size(6rem);
         }
 

@@ -93,7 +93,8 @@ $dark: #222220;
 
 $picture-background-color: #262420;
 
-$body-bg: #F4F4EF; //////
+// $body-bg: #F4F4EF;
+$body-bg: #f5f5f5;
 $body-color: #202123;
 
 $text-muted: rgba($dark, 0.3);
@@ -114,22 +115,28 @@ $enable-negative-margins: true;
 
 $font-size-base: 1rem;
 
-$font-family-sans-serif: 'Rethink Sans', sans-serif;
 
-// $headings-font-family: 'Great Vibes', cursive;
+$font-family-writing: 'Great Vibes', cursive;
+// $font-family-sans: "PT Sans Narrow", sans-serif;
+$font-family-sans: "Montserrat", sans-serif;
+$font-family-script: "Style Script", cursive;
+
+
+$font-family-sans-serif: $font-family-sans;
+
 // $headings-font-family: "Bad Script", cursive;
 // $headings-font-family: "Dancing Script", cursive;
-$headings-font-family: "Style Script", cursive;
-$headings-font-weight: 400;
+$headings-font-family: $font-family-sans;
+$headings-font-weight: 300;
 $headings-line-height: 1.3;
 $headings-color: #5f5f55;
 
-$h1-font-size: 5rem;
+$h1-font-size: 3.5rem;
 $h2-font-size: 3rem;
 $h3-font-size: 2.5rem;
-$h4-font-size: 1.55rem;
-$h5-font-size: 1.5rem;
-$h6-font-size: 1.25rem;
+// $h4-font-size: 2rem;
+// $h5-font-size: 1.5rem;
+// $h6-font-size: 1rem;
 
 $line-height-base: 1.75;
 
@@ -142,7 +149,7 @@ $paragraph-margin-bottom: 1.125rem;
 // Components
 //
 
-$border-radius: 4px;
+$border-radius: 0.5rem;
 $border-radius-xs: $border-radius;
 $border-radius-sm: $border-radius;
 $border-radius-lg: $border-radius;
@@ -217,9 +224,8 @@ $input-border-width: 0px;
 
 $card-bg: white;
 $card-border-width: 0;
-// $card-spacer-y: 1.5rem;
-// $card-spacer-x: 1.5rem;
-
+$card-border-radius: $border-radius;
+$list-group-bg: $card-bg;
 
 
 
