@@ -6,7 +6,8 @@
     <div class="top-content">
         <div class="container">
             <h1 class="js-animated-element to-animate animate-from-bottom prepared">Jij bent uitgenodigd!</h1>
-            <p class="lead js-animated-element to-animate animate-from-bottom prepared">Laat het ons weten door ons RSVP formulier in te vullen. Tot dan!</p>
+            <p class="lead js-animated-element to-animate animate-from-bottom prepared">We vieren dit graag met jouw er bij. Laat je iets weten?</p>
+            {{-- <p class="lead js-animated-element to-animate animate-from-bottom prepared">Laat het ons weten door ons RSVP formulier in te vullen. Tot dan!</p> --}}
             <a href="/rsvp" target="_blank" class="btn btn-secondary btn-lg mt-3 js-animated-element to-animate animate-from-bottom prepared">Aanwezigheid bevestigen</a>
         </div>
     </div>

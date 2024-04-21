@@ -3,7 +3,7 @@ id: 73a0828d-ba6e-4309-9c9e-cb46dcdd7303
 blueprint: locations
 title: Overnachtingen
 updated_by: 414ad70c-93cd-49fd-929f-b8a2a80718bf
-updated_at: 1712698540
+updated_at: 1713700141
 template: pages/locations
 locations:
   -
@@ -24,6 +24,7 @@ locations:
     distance_by_car: '4 mins'
     distance_by_bike: '4 mins'
     distance_by_foot: '20 mins'
+    link: 'https://www.booking.com/hotel/be/de-loteling.nl.html'
   -
     id: luo4zctl
     title: 'Hotel <br/>De Heidebloem'
@@ -42,6 +43,7 @@ locations:
     distance_by_car: '4 mins'
     distance_by_bike: '6 mins'
     distance_by_foot: '23 mins'
+    link: 'https://www.booking.com/hotel/be/de-heidebloem.nl.html'
   -
     id: luo4zftg
     title: 'B&B <br/>De Kasteelhoeve'
@@ -59,6 +61,7 @@ locations:
     asset: bb-de-kasteelhoeve-omgeving-2711-scaled.jpg
     distance_by_car: '10 mins'
     distance_by_bike: '20 mins'
+    link: 'https://www.booking.com/hotel/be/de-kasteelhoeve.nl.html'
   -
     id: luo5x4eg
     title: 'B&B <br/>Noodrust'
@@ -76,4 +79,5 @@ locations:
             text: 'B&B Noodrust biedt 3 prachtige kamers aan inclusief ontbijt.'
     distance_by_car: '5 mins'
     distance_by_bike: '7 mins'
+    link: 'https://www.noodrust.be/kamers.html'
 ---

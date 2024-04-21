@@ -7,26 +7,29 @@
 
     <div class="section">
         <div class="container">
-            <div class="row justify-content-center mb-5 mb-lg-8">
-                <div class="col col-12 col-lg-8 col-xl-6 text-center">
-                    <h1 class="">{{ $title }}</h1>
-                    <p>
-                        <i class="ph-fill ph-star text-secondary"></i>
-                        <i class="ph-fill ph-star text-secondary"></i>
-                        <i class="ph-fill ph-star text-secondary"></i>
-                        <i class="ph-fill ph-star text-secondary"></i>
-                        <i class="ph-fill ph-star text-secondary"></i>
-                    </p>
-                    <p class="text-muted">Je kan in de buurt overlachten als je wil. Hier enkele plaaten die goed en snel bereikbaar zijn voor en na het feest.</p>
+
+            <div class="js-animated-block">
+                <div class="row justify-content-center mb-5 mb-lg-8">
+                    <div class="col col-12 col-lg-8 col-xl-6 text-center">
+                        <h1 class="js-animated-element to-animate animate-from-bottom prepared">{{ $title }}</h1>
+                        <p class="">
+                            <i class="ph-fill ph-star text-secondary d-inline-block js-animated-element to-animate animate-from-bottom prepared"></i>
+                            <i class="ph-fill ph-star text-secondary d-inline-block js-animated-element to-animate animate-from-bottom prepared"></i>
+                            <i class="ph-fill ph-star text-secondary d-inline-block js-animated-element to-animate animate-from-bottom prepared"></i>
+                            <i class="ph-fill ph-star text-secondary d-inline-block js-animated-element to-animate animate-from-bottom prepared"></i>
+                            <i class="ph-fill ph-star text-secondary d-inline-block js-animated-element to-animate animate-from-bottom prepared"></i>
+                        </p>
+                        <p class="text-muted js-animated-element to-animate animate-from-bottom prepared">Je kan in de buurt overlachten als je wil. Hier enkele plaaten die goed en snel bereikbaar zijn voor en na het feest.</p>
+                    </div>
                 </div>
             </div>
 
-            <div class="row justify-content-center">
+            <div class="row justify-content-center js-animated-block">
                 <div class="col col-12">
                     <div class="row g-3 justify-content-center">
                         @foreach ($locations as $location)
                             <div class="col col-12 col-md-6 col-xl-3">
-                                <div class="card shadow card-detail-info h-100">
+                                <div class="card shadow card-detail-info h-100 js-animated-element to-animate animate-from-bottom prepared">
                                     @php($asset = $location->asset)
                                     @if( !empty($asset->id) )
                                         <div class="card-img-top">
@@ -72,6 +75,8 @@
                                             <button type="button" class="btn btn-light no-scale" data-bs-toggle="modal" data-bs-target="#locationModal_{{$loop->index}}">
                                                 Details tonen
                                             </button>
+
+                                            <a href="{{$location->link ?? null}}" target="_blank" class="btn btn-light no-scale mt-1">Website openen</a>
                                         </div>
                                     </div>
                                 </div>
@@ -208,8 +213,7 @@
                     </div>
 
                     <div class="modal-footer px-3">
-                        {{-- <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button> --}}
-                        <a href="" class="btn btn-secondary no-scale">Website openen</a>
+                        <a href="{{$location->link ?? null}}" target="_blank" class="btn btn-secondary no-scale">Website openen</a>
                     </div>
                 </div>
             </div>

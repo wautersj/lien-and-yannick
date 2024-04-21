@@ -171,6 +171,16 @@ tabs:
                           field: rich_bard.rich_bard
                           config:
                             display: 'Extra content'
+                        -
+                          handle: link
+                          field:
+                            type: link
+                            display: Link
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            replicator_preview: true
+                            hide_display: false
               type: replicator
               display: Locations
               listable: hidden
