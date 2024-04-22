@@ -23,7 +23,9 @@
 
             @foreach (Statamic::tag('nav:main_navigation')->fetch() as $item)
                 <li class="nav-item">
-                    <a class="nav-link" href="{{$item['url']}}">{{$item['title']}}</a>
+                    <a class="nav-link
+                    @if($item['is_current']) active @endif
+                    " href="{{$item['url']}}">{{$item['title']}}</a>
                 </li>
             @endforeach
 

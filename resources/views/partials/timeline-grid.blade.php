@@ -1,9 +1,22 @@
 @php
     $rows = $rows ?? [];
+
+    $title = null;
+
+    if($rows && $rows->value()[0]->type == "new_title")
+    {
+        $title = $rows->value()[0]->row_title;
+    }
 @endphp
 
 <div class="section timeline-grid-section">
     <div class="container">
+
+        {{-- @if($title)
+            <div class="js-animated-block">
+                <h2 class="js-animated-element to-animate animate-from-bottom prepared">{{ $title }}</h2>
+            </div>
+        @endif --}}
 
         <div class="grid-wrapper">
             @foreach($rows as $row)

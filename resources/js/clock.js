@@ -8,6 +8,14 @@ $(function () {
         return;
     }
 
+    var monthsLeft = null;
+    var daysLeft = null;
+    var hoursLeft = null;
+    var minutesLeft = null;
+    var secondsLeft = null;
+
+    var transition = false;
+
     var targetDate = new Date('2024-09-21 12:30');
     var targetTime = targetDate.getTime();
 
@@ -19,12 +27,14 @@ $(function () {
 
         if (timeDifference <= 0) {
             // Target time has passed
-            var monthsLeft = 0;
-            var daysLeft = 0;
-            var hoursLeft = 0;
-            var minutesLeft = 0;
-            var secondsLeft = 0;
+            monthsLeft = 0;
+            daysLeft = 0;
+            hoursLeft = 0;
+            minutesLeft = 0;
+            secondsLeft = 0;
         } else {
+            transition = true;
+
             // Calculate remaining time
             var seconds = Math.floor(timeDifference / 1000);
             var minutes = Math.floor(seconds / 60);
@@ -37,17 +47,61 @@ $(function () {
             hours %= 24;
             days %= 30;
 
-            var monthsLeft = months;
-            var daysLeft = days;
-            var hoursLeft = hours;
-            var minutesLeft = minutes;
-            var secondsLeft = seconds;
+            if(monthsLeft !== months) {
+                monthsLeft = months;
+                $section.find('.months .num').text(monthsLeft);
 
-            $section.find('.months .num').text(monthsLeft);
-            $section.find('.days .num').text(daysLeft);
-            $section.find('.hours .num').text(hoursLeft);
-            $section.find('.minutes .num').text(minutesLeft);
-            $section.find('.seconds .num').text(secondsLeft);
+                $section.find('.months .num').addClass('transition');
+                setTimeout(function() {
+                    $section.find('.months .num').removeClass('transition');
+                }, 100);
+            }
+
+            if(daysLeft !== days) {
+                daysLeft = days;
+                $section.find('.days .num').text(daysLeft);
+
+                $section.find('.days .num').addClass('transition');
+                setTimeout(function() {
+                    $section.find('.days .num').removeClass('transition');
+                }, 100);
+            }
+
+            if(hoursLeft !== hours) {
+                hoursLeft = hours;
+                $section.find('.hours .num').text(hoursLeft);
+
+                $section.find('.hours .num').addClass('transition');
+                setTimeout(function() {
+                    $section.find('.hours .num').removeClass('transition');
+                }, 100);
+            }
+
+            if(minutesLeft !== minutes) {
+                minutesLeft = minutes;
+                $section.find('.minutes .num').text(minutesLeft);
+
+                $section.find('.minutes .num').addClass('transition');
+                setTimeout(function() {
+                    $section.find('.minutes .num').removeClass('transition');
+                }, 100);
+            }
+
+            if(secondsLeft !== seconds) {
+                secondsLeft = seconds;
+                $section.find('.seconds .num').text(secondsLeft);
+
+                $section.find('.seconds .num').addClass('transition');
+                setTimeout(function() {
+                    $section.find('.seconds .num').removeClass('transition');
+                }, 100);
+            }
+
+            // $section.find('.months .num').text(monthsLeft);
+            // $section.find('.days .num').text(daysLeft);
+            // $section.find('.hours .num').text(hoursLeft);
+            // $section.find('.minutes .num').text(minutesLeft);
+            // $section.find('.seconds .num').text(secondsLeft);
 
             if(monthsLeft == 1) {
                 $section.find('.months .text.single').show();
