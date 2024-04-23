@@ -4,18 +4,31 @@
         padding-bottom: 0;
     }
 
+    .grid-wrapper {
+        @include media-breakpoint-down(md) {
+            margin-top: -2.5rem;
+        }
+    }
+
     .row {
-        min-height: 500px;
         .col-content {
             align-self: center;
+        }
+
+        @include media-breakpoint-up(xl) {
+            min-height: 500px;
         }
     }
 
     .bard-content {
-        padding: 2rem 1.5rem;
+        padding: 2.5rem 0.5rem;
 
-        @include media-breakpoint-up(lg) {
-            padding: 3rem 4rem;
+        @include media-breakpoint-up(md) {
+            padding: 3rem 0rem;
+        }
+
+        .caption {
+            color: darken($secondary, 10%);
         }
     }
 
@@ -25,6 +38,8 @@
         height: 100%;
         overflow: hidden;
 
+        background-color: gray;
+
         img {
             position: absolute;
             width: 100%;
@@ -32,6 +47,7 @@
             left: 0;
             top: 0;
             object-fit: cover;
+            opacity: 0.85;
         }
 
         &:after {
@@ -47,47 +63,97 @@
         @include media-breakpoint-down(md) {
             border-radius: 0!important;
 
-            width: calc( 100% + ( $container-padding-x * 2 ) );
-            margin-inline-start: calc( $container-padding-x * -1 );
+            width: calc( 100% + ( $container-padding-x ) );
+            margin-inline-start: calc( $container-padding-x * -0.5 );
         }
     }
 
     .col.col-asset.left {
         .asset {
-            border-top-left-radius: 2rem;
-            border-bottom-left-radius: 2rem;
-        }
-    }
+            border-top-left-radius: 1rem;
+            border-bottom-left-radius: 1rem;
 
-    .row:first-child {
-        .col.col-asset.left {
-            .asset {
-                border-top-right-radius: 2rem;
-            }
-        }
-        .col.col-asset.right {
-            .asset {
+            @include media-breakpoint-up(xl) {
                 border-top-left-radius: 2rem;
+                border-bottom-left-radius: 2rem;
             }
         }
     }
 
     .col.col-asset.right {
         .asset {
-            border-top-right-radius: 2rem;
-            border-bottom-right-radius: 2rem;
+            border-top-right-radius: 1rem;
+            border-bottom-right-radius: 1rem;
+
+            @include media-breakpoint-up(xl) {
+                border-top-right-radius: 2rem;
+                border-bottom-right-radius: 2rem;
+            }
+        }
+    }
+
+    .col.col-content.left {
+        .bard-content {
+            @include media-breakpoint-up(lg) {
+                padding: 4rem 4rem 4rem 0rem;
+            }
+
+            @include media-breakpoint-up(xl) {
+                padding: 4rem 4rem 4rem 3rem;
+            }
+        }
+    }
+
+    .col.col-content.right {
+        .bard-content {
+            @include media-breakpoint-up(lg) {
+                padding: 4rem 0rem 4rem 4rem;
+            }
+
+            @include media-breakpoint-up(xl) {
+                padding: 4rem 3rem 4rem 4rem;
+            }
+        }
+    }
+
+    .row:first-child {
+        .col.col-asset.left {
+            .asset {
+                border-top-right-radius: 1rem;
+
+                @include media-breakpoint-up(xl) {
+                    border-top-right-radius: 2rem;
+                }
+            }
+        }
+        .col.col-asset.right {
+            .asset {
+                border-top-left-radius: 1rem;
+
+                @include media-breakpoint-up(xl) {
+                    border-top-left-radius: 2rem;
+                }
+            }
         }
     }
 
     .row:last-child {
         .col.col-asset.left {
             .asset {
-                border-bottom-right-radius: 2rem;
+                border-bottom-right-radius: 1rem;
+
+                @include media-breakpoint-up(xl) {
+                    border-bottom-right-radius: 2rem;
+                }
             }
         }
         .col.col-asset.right {
             .asset {
-                border-bottom-left-radius: 2rem;
+                border-bottom-left-radius: 1rem;
+
+                @include media-breakpoint-up(xl) {
+                    border-bottom-left-radius: 2rem;
+                }
             }
         }
     }
