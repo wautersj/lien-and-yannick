@@ -30,6 +30,10 @@
         .caption {
             color: darken($secondary, 10%);
         }
+
+        p, ul, ol {
+            opacity: 0.6;
+        }
     }
 
     .asset {
