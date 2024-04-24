@@ -33,7 +33,9 @@
                                     @php($asset = $location->asset)
                                     @if( !empty($asset->id) )
                                         <div class="card-img-top">
-                                            <img src="{{ Statamic::tag('glide')->params(['src' => $asset->id, 'width' => 800, 'height' => 450, 'format' => 'webp'])->fetch() }}" alt="{{ $asset->alt ?? "" }}" class="card-img-top">
+                                            <div class="background-image">
+                                                <img src="{{ Statamic::tag('glide')->params(['src' => $asset->id, 'width' => 800, 'height' => 400, 'format' => 'webp'])->fetch() }}" alt="{{ $asset->alt ?? "" }}" class="card-img-top">
+                                            </div>
                                         </div>
                                     @endif
 
