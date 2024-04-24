@@ -11,6 +11,7 @@ header {
 
     display: flex;
     align-items: center;
+    transform:  transalte3d(0,0,0);
 
     .container {
         position: relative;
@@ -46,6 +47,8 @@ header {
     }
 
     .background-image {
-        background-position: 50% 62%;
+        img {
+            object-position: 50% 60%;
+        }
     }
 }

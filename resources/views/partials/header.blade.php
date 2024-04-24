@@ -5,7 +5,9 @@
 <header class="js-animated-block">
 
     @if($header_image ?? null)
-        <div class="background-image js-animated-element to-animate animate-zoom-out animate-slow prepared" style="background-image: url({{ Statamic::tag('glide')->params(['src' => $header_image, 'width' => 1500, 'height' => 750, 'format' => 'webp'])->fetch() }});"></div>
+        <div class="background-image js-animated-element to-animate animate-zoom-out animate-slow prepared">
+            <img src="{{ Statamic::tag('glide')->params(['src' => $header_image, 'width' => 1500, 'height' => 750, 'format' => 'webp'])->fetch() }}" alt="header background image">
+        </div>
     @endif
 
     <div class="container">

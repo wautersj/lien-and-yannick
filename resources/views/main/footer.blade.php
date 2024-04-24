@@ -1,6 +1,8 @@
 <footer class="js-animated-block">
     @if($layout->footer_image)
-        <div class="background-image js-animated-element to-animate animate-zoom-out animate-slow prepared" style="background-image: url({{ Statamic::tag('glide')->params(['src' => $layout->footer_image, 'width' => 1200, 'height' => 600, 'format' => 'webp'])->fetch() }});"></div>
+        <div class="background-image js-animated-element to-animate animate-zoom-out animate-slow prepared">
+            <img src="{{ Statamic::tag('glide')->params(['src' => $layout->footer_image, 'width' => 1200, 'height' => 600, 'format' => 'webp'])->fetch() }}" alt="footer background image">
+        </div>
     @endif
 
     <div class="top-content">
