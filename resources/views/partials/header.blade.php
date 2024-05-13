@@ -6,7 +6,7 @@
 
     @if($header_image ?? null)
         <div class="background-image js-animated-element to-animate animate-zoom-out animate-slow prepared">
-            <img src="{{ Statamic::tag('glide')->params(['src' => $header_image, 'width' => 1500, 'height' => 750, 'format' => 'webp'])->fetch() }}" alt="header background image">
+            <img src="{{ Statamic::tag('glide')->params(['src' => $header_image, 'width' => 2200, 'height' => 1100, 'format' => 'webp'])->fetch() }}" alt="header background image">
         </div>
     @endif
 

@@ -18,7 +18,7 @@
                 </div>
 
                 <div>
-                    <div class="img-wrapper asset-luminosity">
+                    <div class="img-wrapper background-image">
                         <img src="{{ Statamic::tag('glide')->params(['src' => $asset, 'width' => 1200, 'height' => 700, 'format' => 'webp'])->fetch() }}" alt="Thumb">
                     </div>
                 </div>

@@ -3,7 +3,7 @@ id: 9e3abbae-ac4a-457f-b658-ca64bff176c5
 blueprint: homepage
 title: 'Lien & Yannick'
 updated_by: 414ad70c-93cd-49fd-929f-b8a2a80718bf
-updated_at: 1713696359
+updated_at: 1715633552
 template: pages/home
 pictures_grid_card_assets:
   - img_20190922_134121.jpg
@@ -12,7 +12,6 @@ pictures_grid_card_assets:
   - whatsapp-image-2024-01-01-at-16.08.56.jpeg
   - img-20231001-wa0065.jpg
   - img-20231001-wa0051.jpg
-header_image: afbeelding-van-whatsapp-op-2024-01-01-om-16.08.07_5604f85c-(1).jpg
 rows:
   -
     id: lumra206
@@ -49,7 +48,7 @@ rows:
           -
             type: text
             text: 'Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage.'
-    asset: img_20190922_134121.jpg
+    asset: shoot/img_3312.jpg
     type: new_item
     enabled: true
   -
@@ -82,7 +81,7 @@ rows:
           -
             type: text
             text: 'Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage.'
-    asset: img_20210125_142638.jpg
+    asset: shoot/img_3325.jpg
     type: new_item
     enabled: true
   -
@@ -115,7 +114,7 @@ rows:
           -
             type: text
             text: 'Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage.'
-    asset: img20230716202904.jpg
+    asset: shoot/img_3360.jpg
     type: new_item
     enabled: true
   -
@@ -148,7 +147,7 @@ rows:
           -
             type: text
             text: 'Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage.'
-    asset: whatsapp-image-2024-01-01-at-16.08.56.jpeg
+    asset: shoot/img_3310.jpg
     type: new_item
     enabled: true
   -
@@ -181,7 +180,8 @@ rows:
           -
             type: text
             text: 'Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage.'
-    asset: img-20231001-wa0051.jpg
+    asset: shoot/img_3385.jpg
     type: new_item
     enabled: true
+header_image: shoot/img_3335.jpg
 ---
