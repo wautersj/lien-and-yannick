@@ -3,7 +3,7 @@ id: 9e3abbae-ac4a-457f-b658-ca64bff176c5
 blueprint: homepage
 title: 'Lien & Yannick'
 updated_by: 414ad70c-93cd-49fd-929f-b8a2a80718bf
-updated_at: 1715633552
+updated_at: 1716048197
 template: pages/home
 pictures_grid_card_assets:
   - img_20190922_134121.jpg
@@ -27,7 +27,7 @@ rows:
           id: luo0l2qs
           values:
             type: caption
-            caption: '2018'
+            caption: '2018 - 2019'
       -
         type: heading
         attrs:
@@ -41,13 +41,51 @@ rows:
         content:
           -
             type: text
-            text: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. '
+            text: 'We ontmoetten elkaar op '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'oudjaar 2018'
+          -
+            type: text
+            text: ' en al snel was er een klik. Yannick '
+          -
+            type: text
+            marks:
+              -
+                type: italic
+            text: 'zijn lampje'
+          -
+            type: text
+            text: ' daarentegen ging pas wat later branden.'
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage.'
+            text: 'Een geweldig weekend in Durbuy met vrienden die zomer liet onze interesse in elkaar opbloeien. Tijdens dat tripje sloeg de vonk over.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Onze eerste date was na Liens taaltrip in Frankrijk. Het was echt een voltreffer. We genoten van sushi in Antwerpen en cocktails bij de kathedraal. '
+          -
+            type: hardBreak
+          -
+            type: text
+            text: 'Sinds '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: '21 september 2019'
+          -
+            type: text
+            text: ' zijn we officieel een paar.'
     asset: shoot/img_3312.jpg
     type: new_item
     enabled: true
@@ -74,13 +112,25 @@ rows:
         content:
           -
             type: text
-            text: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. '
-      -
-        type: paragraph
-        content:
+            text: 'Lien woonde sinds enkele maanden voor haar werk in het Leuvense. Wegens de plotse “'
           -
             type: text
-            text: 'Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage.'
+            marks:
+              -
+                type: italic
+            text: corona
+          -
+            type: text
+            text: '” lockdown was de beslissing om permanent bij Yannick in de '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: Zoerselhoek
+          -
+            type: text
+            text: " te gaan wonen snel gemaakt. De ideale relatietest die we samen met glans hebben doorstaan..\_"
     asset: shoot/img_3325.jpg
     type: new_item
     enabled: true
@@ -101,20 +151,35 @@ rows:
         content:
           -
             type: text
-            text: 'Haakjes en Sigaren'
+            text: Marcel
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. '
+            text: '“We kennen iemand met een nestje puppies. Engelse springerspaniël is het ras.” Zo werd ons gezegd. “Je moet maar eens gaan kijken.”'
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage.'
-    asset: shoot/img_3360.jpg
+            text: 'Na het zien van ons asymmetrisch monstertje waren onze hartjes gevuld. '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'Welkom Marcel'
+          -
+            type: text
+            text: '!'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Ondertussen is hij uitgegroeid tot een flinke gemanierde reu met een passie voor balletjes.'
+    asset: shoot/img_3403.jpg
     type: new_item
     enabled: true
   -
@@ -140,13 +205,13 @@ rows:
         content:
           -
             type: text
-            text: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. '
-      -
-        type: paragraph
-        content:
+            text: "Op de hotspot cultureel Groede waar we jaarlijks terugkomen om ons samenzijn te vieren heeft hij het dan eindelijk geflikt. Yannick heeft Lien ten huwelijk gevraagd. Wat beantwoord werd met een eenvoudige maar pefect getimede '"
           -
             type: text
-            text: 'Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage.'
+            marks:
+              -
+                type: bold
+            text: "Ja!'"
     asset: shoot/img_3310.jpg
     type: new_item
     enabled: true
@@ -159,7 +224,7 @@ rows:
           id: luo0lzgy
           values:
             type: caption
-            caption: 21/09/2024
+            caption: '2024'
       -
         type: heading
         attrs:
@@ -173,15 +238,24 @@ rows:
         content:
           -
             type: text
-            text: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. '
+            text: 'Op '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: '21 september 2024'
+          -
+            type: text
+            text: ' vieren we onze 5 jaar samen op een wel heel speciale manier. Wij gaan trouwen!'
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage.'
+            text: 'Graag hebben we jou erbij op deze bijzondere gelegenheid. Vergeet zeker niet je aanwezigheid te bevestigen bij de rubriek RSVP. Meer informatie omtrent praktische zaken kan je vinden bij FAQ.'
     asset: shoot/img_3385.jpg
     type: new_item
     enabled: true
-header_image: shoot/img_3335.jpg
+header_image: shoot/img_3336.jpg
 ---
