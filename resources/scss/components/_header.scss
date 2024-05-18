@@ -5,9 +5,20 @@ header {
     // background-color: $dark;
     background-color: $picture-background-color;
 
-    height: 87vh;
     min-height: 500px;
     max-height: 800px;
+
+    @include media-breakpoint-up(md) {
+        height: 50vh;
+    }
+
+    @include media-breakpoint-up(lg) {
+        height: 70vh;
+    }
+
+    @include media-breakpoint-up(xl) {
+        height: 87vh;
+    }
 
     display: flex;
     align-items: center;
@@ -48,7 +59,19 @@ header {
 
     .background-image {
         img {
-            object-position: 50% 60%;
+            object-position: 43% 50%;
+
+            @include media-breakpoint-up(md) {
+                object-position: 30% 50%;
+            }
+
+            @include media-breakpoint-up(lg) {
+                object-position: 10% 50%;
+            }
+
+            @include media-breakpoint-up(xl) {
+                object-position: 50% 5%;
+            }
         }
     }
 }

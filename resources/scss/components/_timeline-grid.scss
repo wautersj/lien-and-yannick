@@ -1,3 +1,6 @@
+$asset_radius_normal: 0.25rem;
+$asset_radius_large: 0.5rem;
+
 .timeline-grid-section {
 
     @include media-breakpoint-down(md) {
@@ -74,24 +77,24 @@
 
     .col.col-asset.left {
         .asset {
-            border-top-left-radius: 1rem;
-            border-bottom-left-radius: 1rem;
+            border-top-left-radius: $asset_radius_normal;
+            border-bottom-left-radius: $asset_radius_normal;
 
             @include media-breakpoint-up(xl) {
-                border-top-left-radius: 2rem;
-                border-bottom-left-radius: 2rem;
+                border-top-left-radius: $asset_radius_large;
+                border-bottom-left-radius: $asset_radius_large;
             }
         }
     }
 
     .col.col-asset.right {
         .asset {
-            border-top-right-radius: 1rem;
-            border-bottom-right-radius: 1rem;
+            border-top-right-radius: $asset_radius_normal;
+            border-bottom-right-radius: $asset_radius_normal;
 
             @include media-breakpoint-up(xl) {
-                border-top-right-radius: 2rem;
-                border-bottom-right-radius: 2rem;
+                border-top-right-radius: $asset_radius_large;
+                border-bottom-right-radius: $asset_radius_large;
             }
         }
     }
@@ -123,19 +126,19 @@
     .row:first-child {
         .col.col-asset.left {
             .asset {
-                border-top-right-radius: 1rem;
+                border-top-right-radius: $asset_radius_normal;
 
                 @include media-breakpoint-up(xl) {
-                    border-top-right-radius: 2rem;
+                    border-top-right-radius: $asset_radius_large;
                 }
             }
         }
         .col.col-asset.right {
             .asset {
-                border-top-left-radius: 1rem;
+                border-top-left-radius: $asset_radius_normal;
 
                 @include media-breakpoint-up(xl) {
-                    border-top-left-radius: 2rem;
+                    border-top-left-radius: $asset_radius_large;
                 }
             }
         }
@@ -144,19 +147,19 @@
     .row:last-child {
         .col.col-asset.left {
             .asset {
-                border-bottom-right-radius: 1rem;
+                border-bottom-right-radius: $asset_radius_normal;
 
                 @include media-breakpoint-up(xl) {
-                    border-bottom-right-radius: 2rem;
+                    border-bottom-right-radius: $asset_radius_large;
                 }
             }
         }
         .col.col-asset.right {
             .asset {
-                border-bottom-left-radius: 1rem;
+                border-bottom-left-radius: $asset_radius_normal;
 
                 @include media-breakpoint-up(xl) {
-                    border-bottom-left-radius: 2rem;
+                    border-bottom-left-radius: $asset_radius_large;
                 }
             }
         }
