@@ -3,7 +3,7 @@ id: 9e3abbae-ac4a-457f-b658-ca64bff176c5
 blueprint: homepage
 title: 'Lien & Yannick'
 updated_by: 414ad70c-93cd-49fd-929f-b8a2a80718bf
-updated_at: 1716048669
+updated_at: 1716663181
 template: pages/home
 pictures_grid_card_assets:
   - img_20190922_134121.jpg
@@ -86,7 +86,7 @@ rows:
           -
             type: text
             text: ' zijn we officieel een paar.'
-    asset: shoot/img_3312.jpg
+    asset: shoot/img_3385.jpg
     type: new_item
     enabled: true
   -
@@ -254,8 +254,8 @@ rows:
           -
             type: text
             text: 'Graag hebben we jou erbij op deze bijzondere gelegenheid. Vergeet zeker niet je aanwezigheid te bevestigen bij de rubriek RSVP. Meer informatie omtrent praktische zaken kan je vinden bij FAQ.'
-    asset: shoot/img_3385.jpg
+    asset: shoot/img_3426.jpg
     type: new_item
     enabled: true
-header_image: shoot/img_3418.jpg
+header_image: shoot/img_3374.jpg
 ---
