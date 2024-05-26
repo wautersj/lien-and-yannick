@@ -5,7 +5,7 @@ header {
     // background-color: $dark;
     background-color: $picture-background-color;
 
-    min-height: 500px;
+    min-height: 400px;
     max-height: 800px;
 
     @include media-breakpoint-up(md) {
@@ -59,7 +59,7 @@ header {
 
     .background-image {
         img {
-            object-position: 43% 50%;
+            object-position: 42% 50%;
 
             @include media-breakpoint-up(md) {
                 object-position: 30% 50%;
@@ -70,7 +70,7 @@ header {
             }
 
             @include media-breakpoint-up(xl) {
-                object-position: 50% 5%;
+                object-position: 50% 10%;
             }
         }
     }

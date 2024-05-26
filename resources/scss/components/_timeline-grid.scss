@@ -4,12 +4,13 @@ $asset_radius_large: 0.5rem;
 .timeline-grid-section {
 
     @include media-breakpoint-down(md) {
+        padding-top: 0;
         padding-bottom: 0;
     }
 
     .grid-wrapper {
         @include media-breakpoint-down(md) {
-            margin-top: -2.5rem;
+            // margin-top: -2.5rem;
         }
     }
 

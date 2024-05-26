@@ -29,11 +29,12 @@
                                 ])
                             </div>
                         </div>
-                        <div class="col col-asset col-12 col-md-6 @if($loop->index % 2) left @else right @endif">
+
+                        <div class="col col-asset col-12 col-md-6 order-first @if($loop->index % 2) left @else right order-md-last @endif">
                             @php($asset = $row->asset)
                             <div class="asset @if( empty($item["asset"]) ) empty @endif js-animated-element to-animate animate-from-bottom prepared">
                                 @if( !empty($asset->id) )
-                                    <img src="{{ Statamic::tag('glide')->params(['src' => $asset->id, 'width' => 960, 'height' => 700, 'format' => 'webp'])->fetch() }}" alt="{{ $asset->alt ?? "" }}">
+                                    <img src="{{ Statamic::tag('glide')->params(['src' => $asset->id, 'width' => 1012, 'height' => 750, 'format' => 'webp'])->fetch() }}" alt="{{ $asset->alt ?? "" }}">
                                 @endif
                             </div>
                         </div>
@@ -43,5 +44,5 @@
         </div>
     </div>
 
-    <div class="py-3"></div>
+    <div class="py-1"></div>
 </div>
