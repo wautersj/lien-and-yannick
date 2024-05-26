@@ -1,0 +1,7 @@
+.card-faq {
+    .card-body {
+        @include media-breakpoint-down(md) {
+            padding: 0;
+        }
+    }
+}

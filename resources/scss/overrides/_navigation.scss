@@ -1,10 +1,31 @@
 .navbar {
+    @include media-breakpoint-up(lg) {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    @include media-breakpoint-up(xl) {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
     &.nav-overflow {
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         z-index: 10;
+    }
+
+    .container-fluid {
+        @include media-breakpoint-up(xl) {
+            padding-inline-start: 2.5rem;
+            padding-inline-end: 2.5rem;
+        }
+    }
+
+    .navbar-brand {
+        font-weight: 500;
     }
 
     .navbar-nav {
@@ -17,6 +38,39 @@
             @include media-breakpoint-up(xl) {
                 margin-inline-start: 1.75rem;
                 margin-inline-end: 1.75rem;
+            }
+
+            .nav-link {
+                opacity: 0.6;
+                font-weight: 500;
+                transition: opacity 0.33s;
+
+                &.active {
+                    opacity: 1;
+                    font-weight: 600;
+                }
+
+                &:hover,
+                &:focus {
+                    opacity: 0.9;
+                }
+            }
+        }
+    }
+
+    &.navbar-dark {
+        .nav-item {
+            .nav-link {
+                color: white;
+
+            }
+        }
+    }
+
+    &.navbar-light {
+        .nav-item {
+            .nav-link {
+                color: $dark;
             }
         }
     }

@@ -17,24 +17,28 @@
 
             <div class="row justify-content-center">
                 <div class="col col-12 col-lg-9 col-xl-8">
-                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="card card-faq shadow-small js-animated-element to-animate animate-from-bottom prepared">
+                        <div class="card-body p-lg-3 p-xl-4">
+                            <div class="accordion accordion-flush" id="accordionFlushExample">
 
-                        @foreach ($items as $item)
-                            <div class="accordion-item js-animated-element to-animate animate-from-bottom prepared">
-                                <div class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-faq-{{$loop->index}}" aria-expanded="false" aria-controls="flush-faq-{{$loop->index}}">
-                                    {{ $item->title ?? null }}
-                                    </button>
-                                </div>
-                                <div id="flush-faq-{{$loop->index}}" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">
-                                        @include('partials.rich-bard', [
-                                            'bard' => $item->content ?? null
-                                        ])
+                                @foreach ($items as $item)
+                                    <div class="accordion-item js-animated-element to-animate animate-from-bottom prepared">
+                                        <div class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-faq-{{$loop->index}}" aria-expanded="false" aria-controls="flush-faq-{{$loop->index}}">
+                                            {{ $item->title ?? null }}
+                                            </button>
+                                        </div>
+                                        <div id="flush-faq-{{$loop->index}}" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body pt-0">
+                                                @include('partials.rich-bard', [
+                                                    'bard' => $item->content ?? null
+                                                ])
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
+                                    @endforeach
                             </div>
-                            @endforeach
+                        </div>
                     </div>
                 </div>
             </div>

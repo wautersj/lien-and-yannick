@@ -1,7 +1,19 @@
+
+
 .accordion {
+
     @include media-breakpoint-down(md) {
         margin-inline-start: calc( $container-padding-x * -0.5 );
         margin-inline-end: calc( $container-padding-x * -0.5 );
+    }
+
+    @include media-breakpoint-up(md) {
+        border-radius: 4px;
+        overflow: hidden;
+    }
+
+    @include media-breakpoint-up(xl) {
+        border-radius: 5px;
     }
 
     .accordion-button {
@@ -12,6 +24,10 @@
         &:not(.collapsed) {
             font-weight: 600;
             letter-spacing: -0.4px;
+        }
+
+        &.collapsed {
+            background-color: #f8f8f8;
         }
     }
 

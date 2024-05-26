@@ -1,0 +1,17 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: new_tab
+            field:
+              default: false
+              type: toggle
+              display: 'New Tab'
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
