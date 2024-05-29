@@ -3,7 +3,7 @@ id: bbaee5c0-eefc-4aae-bdd5-971b3a253041
 blueprint: faq
 title: 'Veelgestelde vragen'
 updated_by: 414ad70c-93cd-49fd-929f-b8a2a80718bf
-updated_at: 1716987170
+updated_at: 1716987258
 template: pages/faq
 items:
   -
@@ -98,7 +98,7 @@ items:
     enabled: true
   -
     id: lv9i5hvx
-    title: 'Cadeautips (ToDo)'
+    title: Cadeautips
     content:
       -
         type: paragraph
