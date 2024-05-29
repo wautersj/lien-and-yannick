@@ -1,4 +1,7 @@
 .navbar {
+    position: relative;
+    z-index: 999;
+
     @include media-breakpoint-up(lg) {
         padding-top: 1rem;
         padding-bottom: 1rem;
@@ -14,7 +17,6 @@
         top: 0;
         left: 0;
         width: 100%;
-        z-index: 10;
     }
 
     .container-fluid {
@@ -74,4 +76,20 @@
             }
         }
     }
+}
+
+.mobile-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+    // background: white;
+    background-color: $picture-background-color;
+    z-index: 99999;
+    flex-direction: column;
+    align-items: initial;
+    // transform: translateX(-100%);
+    // pointer-events: none;
+    transition: transform 0.4s;
 }

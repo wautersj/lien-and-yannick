@@ -3,7 +3,7 @@ id: bbaee5c0-eefc-4aae-bdd5-971b3a253041
 blueprint: faq
 title: 'Veelgestelde vragen'
 updated_by: 414ad70c-93cd-49fd-929f-b8a2a80718bf
-updated_at: 1716891452
+updated_at: 1716987004
 template: pages/faq
 items:
   -
@@ -36,7 +36,7 @@ items:
                 attrs:
                   href: 'https://www.google.com/maps/place//data=!4m2!3m1!1s0x47c400701f48bfed:0xff66d1d7ec960990?sa=X&ved=1t:8290&ictx=111'
                   rel: null
-                  target: null
+                  target: _blank
                   title: null
             text: 'Achterstraat 30, 2980 Zoersel'
           -
@@ -47,7 +47,7 @@ items:
                 attrs:
                   href: 'https://www.google.com/maps/place//data=!4m2!3m1!1s0x47c400701f48bfed:0xff66d1d7ec960990?sa=X&ved=1t:8290&ictx=111'
                   rel: null
-                  target: null
+                  target: _blank
                   title: null
           -
             type: text
@@ -69,7 +69,7 @@ items:
         content:
           -
             type: text
-            text: 'Kinderen zijn helaas niet toegestaan op ons feest.'
+            text: 'We gunnen alle ouders op ons feest ultieme me-time. Laat daarom de kinderen thuis.'
     type: new_set
     enabled: true
   -
@@ -86,14 +86,14 @@ items:
     enabled: true
   -
     id: lv9i5cq5
-    title: 'Is er een dresscode? (ToDo)'
+    title: 'Is er een dresscode?'
     content:
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.'
+            text: 'We hebben geen dresscode. Wees je fantastische zelf op onze mooie dag.'
     type: new_set
     enabled: true
   -
@@ -105,19 +105,37 @@ items:
         content:
           -
             type: text
-            text: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.'
+            text: 'We bouwen aan onze mooie toekomst samen. Wil jij hier ook graag een steentje aan bijdragen?'
+          -
+            type: hardBreak
+          -
+            type: hardBreak
+          -
+            type: text
+            marks:
+              -
+                type: italic
+            text: 'Wauters Y & Hamels L'
+          -
+            type: hardBreak
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'BE76 7340 5036 1395'
     type: new_set
     enabled: true
   -
     id: lv9i5n4r
-    title: 'Allergieën (ToDo)'
+    title: Allergieën
     content:
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.'
+            text: 'Heb je allergieën, intoleranties of andere voedingsvoorkeuren? Laat het ons weten via het rsvp-formulier. We houden er in de mate van het mogelijke rekening mee.'
     type: new_set
     enabled: true
   -
@@ -161,7 +179,7 @@ items:
                 attrs:
                   href: 'https://www.taxiii.be/'
                   rel: null
-                  target: null
+                  target: _blank
                   title: null
             text: 'https://www.taxiii.be/'
           -
