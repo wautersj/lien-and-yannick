@@ -3,7 +3,7 @@ id: bbaee5c0-eefc-4aae-bdd5-971b3a253041
 blueprint: faq
 title: 'Veelgestelde vragen'
 updated_by: 414ad70c-93cd-49fd-929f-b8a2a80718bf
-updated_at: 1716987046
+updated_at: 1716987170
 template: pages/faq
 items:
   -
@@ -51,7 +51,7 @@ items:
                   title: null
           -
             type: text
-            text: 'Bereikbaarheid: 19 minuten wandelen van de feestlocatie.'
+            text: 'Bereikbaarheid: 19 minuten wandelen naar de feestlocatie.'
       -
         type: paragraph
         content:
