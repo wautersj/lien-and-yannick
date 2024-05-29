@@ -3,7 +3,7 @@ id: bbaee5c0-eefc-4aae-bdd5-971b3a253041
 blueprint: faq
 title: 'Veelgestelde vragen'
 updated_by: 414ad70c-93cd-49fd-929f-b8a2a80718bf
-updated_at: 1716987004
+updated_at: 1716987046
 template: pages/faq
 items:
   -
@@ -147,7 +147,7 @@ items:
         content:
           -
             type: text
-            text: 'We hebben enkele opties op gelijst waar gasten zouden kunnen overnachten. Deze kan je terugvinden op deze website op de pagina: '
+            text: 'We hebben enkele opties opgelijst waar gasten zouden kunnen overnachten. Deze kan je terugvinden op volgende pagina: '
           -
             type: text
             marks:
