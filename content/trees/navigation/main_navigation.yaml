@@ -4,22 +4,19 @@ tree:
     entry: 9e3abbae-ac4a-457f-b658-ca64bff176c5
     title: Home
   -
-    id: f4b963b7-1a08-437f-80b3-aecc82e4a630
-    title: Praktisch
+    id: 8f03fb30-3568-41ff-9478-1643b197b2bb
+    title: 'Team Wedding'
     url: '#'
   -
     id: 85147d07-ca8d-415c-ab4c-be3eb92e097e
     entry: 73a0828d-ba6e-4309-9c9e-cb46dcdd7303
   -
-    id: 8f03fb30-3568-41ff-9478-1643b197b2bb
-    title: 'Team Wedding'
-    url: '#'
-  -
     id: dded73a7-1ed6-4ddd-850e-f02598781955
     entry: bbaee5c0-eefc-4aae-bdd5-971b3a253041
-    title: FAQ
+    title: Praktisch
   -
     id: 9ac1572d-98cb-4f54-a4e5-371ff758c1d5
     entry: 0b7f77be-d541-4465-b854-6c873bc2cda4
+    title: 'Aanwezigheid bevestigen'
     data:
       new_tab: false

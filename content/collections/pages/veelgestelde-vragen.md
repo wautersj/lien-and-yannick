@@ -1,9 +1,9 @@
 ---
 id: bbaee5c0-eefc-4aae-bdd5-971b3a253041
 blueprint: faq
-title: 'Veelgestelde vragen'
+title: 'Praktische zaken'
 updated_by: 414ad70c-93cd-49fd-929f-b8a2a80718bf
-updated_at: 1716987258
+updated_at: 1718353518
 template: pages/faq
 items:
   -
