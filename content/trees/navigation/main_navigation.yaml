@@ -22,4 +22,4 @@ tree:
     id: 9ac1572d-98cb-4f54-a4e5-371ff758c1d5
     entry: 0b7f77be-d541-4465-b854-6c873bc2cda4
     data:
-      new_tab: true
+      new_tab: false

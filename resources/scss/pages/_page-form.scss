@@ -1,5 +1,19 @@
 .page-form {
+    overflow: hidden;
+
     iframe {
-        height: 100vh;
+        height: calc( 100vh - 60px );
+
+        @include media-breakpoint-up(md) {
+            height: calc( 100vh - 60px );
+        }
+
+        @include media-breakpoint-up(lg) {
+            height: calc( 100vh - 76px );
+        }
+
+        @include media-breakpoint-up(xl) {
+            height: calc( 100vh - 92px );
+        }
     }
 }

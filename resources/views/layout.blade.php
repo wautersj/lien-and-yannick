@@ -11,7 +11,11 @@
         <script src="https://unpkg.com/@phosphor-icons/web"></script>
     </head>
 
-    <body class="page-{{$blueprint->value()->handle}}">
+    <body class="
+        @if($blueprint ?? null)
+            page-{{$blueprint->value()->handle ?? null}}
+        @endif
+    ">
         @yield('content')
 
         @include('main.footer')

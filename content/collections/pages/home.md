@@ -3,7 +3,7 @@ id: 9e3abbae-ac4a-457f-b658-ca64bff176c5
 blueprint: homepage
 title: 'Lien & Yannick'
 updated_by: 414ad70c-93cd-49fd-929f-b8a2a80718bf
-updated_at: 1716728077
+updated_at: 1718352710
 template: pages/home
 pictures_grid_card_assets:
   - img_20190922_134121.jpg

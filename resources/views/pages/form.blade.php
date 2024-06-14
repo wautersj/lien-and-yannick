@@ -1,11 +1,11 @@
 @extends('layout-empty')
 
 @section('content')
-    {{-- <div class="container">
-        <div class="block">
+    @include('main.navigation', [
+        'nav_overflow' => false
+    ])
 
-        </div>
-    </div> --}}
-
-    {!! $form_code !!}
+    <div class="pb-0">
+        {!! $form_code !!}
+    </div>
 @endsection
