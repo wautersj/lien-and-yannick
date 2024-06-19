@@ -2,11 +2,11 @@
     <div class="container-fluid">
         <a class="navbar-brand" href="{{$homepage}}">L&Y</a>
 
-        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler ms-auto" type="button">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse">
             <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
 
                 @foreach (Statamic::tag('nav:main_navigation')->fetch() as $item)
@@ -42,6 +42,11 @@
     <nav class="navbar navbar-dark">
         <div class="container">
             <a class="navbar-brand" href="{{$homepage}}">L&Y</a>
+
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                {{-- <i class="ph ph-x"></i> --}}
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
             <div class="navbar-collapse">
                 <ul class="navbar-nav">

@@ -7,3 +7,4 @@ import 'bootstrap';
 
 import './animation';
 import './clock';
+import './mobile-nav';
