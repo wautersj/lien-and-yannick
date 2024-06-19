@@ -5,10 +5,11 @@ header {
     // background-color: $dark;
     background-color: $picture-background-color;
 
-    min-height: 400px;
+    min-height: 430px;
     max-height: 800px;
 
     @include media-breakpoint-up(md) {
+        min-height: 400px;
         height: 50vh;
     }
 
