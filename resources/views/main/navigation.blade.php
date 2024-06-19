@@ -11,28 +11,16 @@
 
                 @foreach (Statamic::tag('nav:main_navigation')->fetch() as $item)
                     <li class="nav-item">
-
-                        {{-- @unless($loop->last) --}}
-
-                            <a class="nav-link
-                                @if($item['is_current']) active @endif
-                            "
-                            @if(($item['new_tab'] ?? null) && $item['new_tab']->value()) target="_blank" @endif
-                            href="{{$item['url']}}">
-                                {{$item['title']}}
-                            </a>
-
-                        {{-- @else
-                            <a href="" class="btn btn-sm btn-primary">
-                                {{$item['title']}}
-                            </a>
-                        @endunless --}}
+                        <a class="nav-link
+                            @if($item['is_current']) active @endif
+                        "
+                        @if(($item['new_tab'] ?? null) && $item['new_tab']->value()) target="_blank" @endif
+                        href="{{$item['url']}}">
+                            {{$item['title']}}
+                        </a>
                     </li>
                 @endforeach
 
-                {{-- <li class="nav-item">
-                    <a href="" class="btn btn-sm btn-secondary">test</a>
-                </li> --}}
             </ul>
         </div>
     </div>
@@ -44,7 +32,6 @@
             <a class="navbar-brand" href="{{$homepage}}">L&Y</a>
 
             <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                {{-- <i class="ph ph-x"></i> --}}
                 <span class="navbar-toggler-icon"></span>
             </button>
 
@@ -66,4 +53,10 @@
 
         </div>
     </nav>
+
+    @if($layout->mobile_nav_image)
+        <div class="background-image">
+            <img src="{{ Statamic::tag('glide')->params(['src' => $layout->mobile_nav_image, 'width' => 700, 'height' => 800, 'format' => 'webp'])->fetch() }}" alt="mobile nav background image">
+        </div>
+    @endif
 </div>
