@@ -19,7 +19,7 @@
                             <i class="ph-fill ph-star text-secondary d-inline-block js-animated-element to-animate animate-from-bottom prepared"></i>
                             <i class="ph-fill ph-star text-secondary d-inline-block js-animated-element to-animate animate-from-bottom prepared"></i>
                         </p>
-                        <p class="text-muted js-animated-element to-animate animate-from-bottom prepared">Je kan in de buurt overlachten als je wil. Hier enkele plaaten die goed en snel bereikbaar zijn voor en na het feest.</p>
+                        <p class="text-muted js-animated-element to-animate animate-from-bottom prepared">Je kan in de buurt overnachten als je wil. Hier enkele plaaten die goed en snel bereikbaar zijn voor en na het feest.</p>
                     </div>
                 </div>
             </div>
