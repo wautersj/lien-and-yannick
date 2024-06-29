@@ -1,4 +1,10 @@
 .card-faq {
+    @include media-breakpoint-down(md) {
+        background: transparent;
+        margin-inline-start: calc( $container-padding-x * -0.5 );
+        margin-inline-end: calc( $container-padding-x * -0.5 );
+    }
+
     .card-body {
         @include media-breakpoint-down(md) {
             padding: 0;

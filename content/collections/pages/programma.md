@@ -1,9 +1,9 @@
 ---
 id: e24ad200-95df-495f-bc9d-a6d091716f23
 blueprint: program
-title: 'Onze dag'
+title: "21 September '24"
 updated_by: 414ad70c-93cd-49fd-929f-b8a2a80718bf
-updated_at: 1718802926
+updated_at: 1719656133
 template: pages/program
 listing:
   -
