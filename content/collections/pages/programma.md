@@ -3,7 +3,7 @@ id: e24ad200-95df-495f-bc9d-a6d091716f23
 blueprint: program
 title: "21 September '24"
 updated_by: 414ad70c-93cd-49fd-929f-b8a2a80718bf
-updated_at: 1719656133
+updated_at: 1719659704
 template: pages/program
 listing:
   -
@@ -51,7 +51,7 @@ listing:
             marks:
               -
                 type: italic
-            text: 'Voor ons een heel belangrijke plaats, wat daar willen wij samen aan onze toekomst bouwen!'
+            text: 'Voor ons een heel belangrijke plaats, want daar willen wij samen aan onze toekomst bouwen!'
     type: new_set
     enabled: true
   -
